@@ -1,0 +1,96 @@
+.fundo{
+
+display: flex;
+justify-content: center;
+
+}
+
+.paree{
+
+font-size: 15px;
+background-color: red;
+color: white;
+padding: 5px;
+margin: 6px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+margin-right: 10px;
+
+}
+.atencaoo{
+
+font-size: 15px;
+background-color: orange;
+ color: white;
+padding: 5px;
+margin: 6px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+margin-right: 10px;
+}
+.sigaa{
+
+font-size: 15px;
+background-color: rgb(14, 202, 14);
+color: white;
+padding: 5px;
+margin: 6px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+margin-right: 10px;
+}
+#vermelho{
+
+width: 200px;
+height: 200px;
+border-radius: 100px;
+border: rgb(0, 0, 0) solid 1px;
+background-color: red;
+}
+
+#laranja{
+paddi
+width: 200px;
+height: 200px;
+border-radius: 100px;
+border: rgb(0, 0, 0) solid 1px;
+background-color: orange;
+}
+
+#verde{
+
+width: 200px;
+height: 200px;
+border-radius: 100px;
+border: rgb(0, 0, 0) solid 1px;
+background-color: rgb(15, 223, 15);
+}
+
+.contorno{
+           
+width: 210px;
+height: 620px;
+background-color: black;
+}
+.opacidade{
+
+opacity: 0.4;
+}
+
+.sigaa:hover{
+
+    background-color: rgb(76, 119, 11);
+}
+
+.atencaoo:hover{
+
+    background-color: rgb(146, 98, 8);
+}
+
+.paree:hover{
+
+    background-color: rgb(131, 10, 10);
+}
