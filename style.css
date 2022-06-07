@@ -2,6 +2,8 @@
 
 display: flex;
 justify-content: center;
+align-items: center;
+padding-top: 50px;
 
 }
 
@@ -42,19 +44,22 @@ border: none;
 cursor: pointer;
 margin-right: 10px;
 }
+
+
 #vermelho{
 
-width: 200px;
-height: 200px;
+width: 150px;
+height: 150px;
 border-radius: 100px;
 border: rgb(0, 0, 0) solid 1px;
 background-color: red;
+
 }
 
 #laranja{
-paddi
-width: 200px;
-height: 200px;
+
+width: 150px;
+height: 150px;
 border-radius: 100px;
 border: rgb(0, 0, 0) solid 1px;
 background-color: orange;
@@ -62,19 +67,35 @@ background-color: orange;
 
 #verde{
 
-width: 200px;
-height: 200px;
+width: 150px;
+height: 150px;
 border-radius: 100px;
 border: rgb(0, 0, 0) solid 1px;
 background-color: rgb(15, 223, 15);
 }
 
 .contorno{
-           
-width: 210px;
-height: 620px;
+padding: 10px 25px  20px 25px ;          
+width: 150px;
+height: 450px;
 background-color: black;
+border-radius:60px;
+
+
 }
+
+.sigamos button {
+    display: flex ;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  
+}
+
+
+
+
 .opacidade{
 
 opacity: 0.4;
